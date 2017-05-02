@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LoginController {
 
 	
-	@RequestMapping(value="/login.do")
+	@RequestMapping(value="/login.do") 
 	public String initLogin(HttpServletRequest req, HttpServletResponse resp) {
 		try {
 			System.out.println("entered");
