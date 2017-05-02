@@ -21,7 +21,7 @@ public class LoginController {
 	@RequestMapping(value="/login.do") 
 	public String initLogin(HttpServletRequest req, HttpServletResponse resp) {
 		try {
-			System.out.println("entered");
+			System.out.println("entered new");
 		} catch (Exception e) {
 			System.out.println("exception");
 		}
